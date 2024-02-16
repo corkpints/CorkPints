@@ -53,4 +53,4 @@ for index, row in pubs_df.iterrows():
                   icon=folium.Icon(color=color)).add_to(mymap)
 
 # Display the map
-st_folium(map)
+st_folium(mymap)
